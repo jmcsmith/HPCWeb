@@ -1,0 +1,11 @@
+
+#extend("base")
+
+#export("title") { It works }
+
+#export("content") {
+<div class="welcome">
+<h1>Privacy Policy goes Here.</h1>
+</div>
+}
+
