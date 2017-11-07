@@ -9,11 +9,11 @@ final class Routes: RouteCollection {
     func build(_ builder: RouteBuilder) throws {
         /// GET /
         builder.get { req in
-            return try self.view.make("welcome")
+            return try self.view.make("home")
         }
 
         /// GET /hello/...
-        builder.resource("hello", HelloController(view))
+
         builder.resource("home", HomeController(view))
         builder.resource("privacy", PrivacyController(view))
         // response to requests to /info domain

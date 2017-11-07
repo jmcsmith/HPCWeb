@@ -11,15 +11,11 @@ final class HomeController: ResourceRepresentable {
     
     /// GET /hello
     func index(_ req: Request) throws -> ResponseRepresentable {
-        return try view.make("welcome")
+        return try view.make("home")
     }
     
     /// GET /hello/:string
-    func show(_ req: Request, _ string: String) throws -> ResponseRepresentable {
-        return try view.make("hello", [
-            "name": string
-            ], for: req)
-    }
+
     
     /// When making a controller, it is pretty flexible in that it
     /// only expects closures, this is useful for advanced scenarios, but
@@ -27,8 +23,7 @@ final class HomeController: ResourceRepresentable {
     /// implementation
     func makeResource() -> Resource<String> {
         return Resource(
-            index: index,
-            show: show
+            index: index
         )
     }
 }

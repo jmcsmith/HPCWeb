@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>#import("title")</title>
-	<link rel="stylesheet" href="/styles/app.css">
-</head>
+
+    #import("head")
 <body>
 
 #import("content")

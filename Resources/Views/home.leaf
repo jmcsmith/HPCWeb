@@ -1,0 +1,39 @@
+
+#extend("base")
+
+#export("head") {
+<title>Health Points Club</title>
+<meta property="og:title" content="Health Points Club">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.healthpoints.club">
+<meta property="og:description" content="Health Points Club: be health competition app on iOS.">
+<meta property="og:image" content="/images/icon_clear.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@jmsmith64">
+<meta name="twitter:title" content="Health Points Club">
+<meta name="twitter:description" content="Health Points Club: be health competition app on iOS.">
+<meta name="twitter:image:src" content="/images/icon_clear.png">
+<link rel="apple-touch-icon" href="/images/Icon-98@2x.png">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/styles/app.css">
+}
+
+#export("content") {
+
+
+
+
+
+<div style="width: 100%; text-align: center;">
+<h1>Health Points Club, coming soon!</h1>
+</div>
+
+<img src="images/heart4.svg" alt="Logo" style=" width: 100%; height: 100%; display: flex; padding: 20px;padding-bottom:80px">
+
+
+
+
+
+
+}
