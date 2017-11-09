@@ -18,22 +18,78 @@
 <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/styles/app.css">
+<style>
+body, html {
+height: 100%;
+width:100%;
+}
+
+.bgimg {
+/* Background image */
+background-image: url('images/heart4.svg');
+/* Full-screen */
+height: 100%; width:100%;
+/* Center the background image */
+background-position: center;
+/* Scale and zoom in the image */
+background-repeat: no-repeat;
+/* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+position: relative;
+/* Add a white text color to all elements inside the .bgimg container */
+color: black;
+/* Add a font */
+font-family: "Courier New", Courier, monospace;
+/* Set the font-size to 25 pixels */
+font-size: 25px;
+
+}
+
+/* Position text in the top-left corner */
+.topleft {
+position: absolute;
+top: 0;
+left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+position: absolute;
+bottom: 0;
+left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+margin: auto;
+width: 40%;
+}
+</style>
 }
 
 #export("content") {
 
+<div class="bgimg">
 
-
-
-
-<div style="width: 100%; text-align: center;">
+<div class="middle">
 <h1>Health Points Club now on the App Store!</h1>
+
+<p><a href="https://itunes.apple.com/us/app/health-points-club/id1232381881?mt=8" target="_blank">
+<img src="images/AppStoreBadge.svg" alt="Logo"  style=" padding: 20px;padding-bottom:80px; width: 300px">
+</a></p>
 </div>
 
-<img src="images/heart4.svg" alt="Logo" style=" width: 100%; height: 80%; display: flex; padding: 20px;">
-<a href="https://itunes.apple.com/us/app/health-points-club/id1232381881?mt=8" target="_blank">
-<img src="images/AppStoreBadge.svg" alt="Logo" style=" width: 100%; height: 20%; display: flex; padding: 20px;padding-bottom:80px">
-</a>
+</div>
+
+
 
 
 
