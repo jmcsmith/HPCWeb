@@ -18,8 +18,7 @@
 <link rel="stylesheet" href="/styles/app.css">
 <style>
 html, body {
-
-
+        font-size: 1em;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
 }
 </style>
