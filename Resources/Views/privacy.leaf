@@ -14,8 +14,7 @@
 <meta name="twitter:description" content="Health Points Club: be healthy competition app on iOS.">
 <meta name="twitter:image:src" content="/images/icon_clear.png">
 <link rel="apple-touch-icon" href="/images/Icon-98@2x.png">
-<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href="/styles/app.css">
 <style>
 html, body {
