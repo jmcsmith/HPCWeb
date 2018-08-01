@@ -2,92 +2,33 @@
 #extend("base")
 
 #export("head") {
+<meta charset="utf-8" />
+<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <title>Health Points Club</title>
-<meta property="og:title" content="Health Points Club">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://www.healthpoints.club">
-<meta property="og:description" content="Health Points Club: be healthy competition app on iOS.">
-<meta property="og:image" content="/images/icon_clear.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@jmsmith64">
-<meta name="twitter:title" content="Health Points Club">
-<meta name="twitter:description" content="Health Points Club: be healthy competition app on iOS.">
-<meta name="twitter:image:src" content="/images/icon_clear.png">
-<meta name="apple-itunes-app" content="app-id=1232381881">
-<link rel="apple-touch-icon" href="/images/Icon-98@2x.png">
-<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/styles/app.css">
-<style>
-body, html {
-height: 100%;
-width:100%;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" type="text/css" />
+<meta name="description" content="Health Points Club monitors your health data directly from Apple Health and converts it to Health Points.
 
-.bgimg {
-/* Background image */
-background-image: url('images/heart4.svg');
-/* Full-screen */
-height: 100%; width:100%;
-/* Center the background image */
-background-position: center;
-/* Scale and zoom in the image */
-background-repeat: no-repeat;
-/* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-position: relative;
-/* Add a white text color to all elements inside the .bgimg container */
-color: black;
-/* Add a font */
-font-family: "Courier New", Courier, monospace;
-/* Set the font-size to 25 pixels */
-font-size: 25px;
-
-}
-
-/* Position text in the top-left corner */
-.topleft {
-position: absolute;
-top: 0;
-left: 16px;
-}
-
-/* Position text in the bottom-left corner */
-.bottomleft {
-position: absolute;
-bottom: 0;
-left: 16px;
-}
-
-/* Position text in the middle */
-.middle {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-}
-
-/* Style the <hr> element */
-hr {
-margin: auto;
-width: 40%;
-}
-</style>
+Use your points to compare days, share an" />
+<meta name="keywords" content="Health Points Club,Stay,on,top,of,your,fitness,progress!!!" />
+<meta name="og:locale" property="og:locale" content="en_US" />
+<meta name="og:type" property="og:type" content="website" />
+<meta name="og:site_name" property="og:site_name" content="Health Points Club" />
+<meta name="og:title" property="og:title" content="Health Points Club" />
+<meta name="og:description" property="og:description" content="Stay on top of your fitness progress!!!" />
+<meta name="og:image" property="og:image" content="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/03244279-3b93-41c5-89d6-183f70e7be45-1.png" />
+<meta name="og:image:type" property="og:image:type" content="image/png" />
+<meta name="og:image:width" property="og:image:width" content="1024" />
+<meta name="og:image:height" property="og:image:height" content="1024" />
+<link rel="stylesheet" href="static/templates/template4/css/main.min.css" />xr 
 }
 
 #export("content") {
 
-<div class="bgimg">
-
-<div class="middle">
-<h1>Health Points Club, now on the App Store!</h1>
-
-<p><a href="https://itunes.apple.com/us/app/health-points-club/id1232381881?mt=8" target="_blank">
-<img src="images/AppStoreBadge.svg" alt="Logo"  style=" padding: 20px;padding-bottom:80px; width: 300px">
-</a></p>
-</div>
-
-</div>
+<div><div class="dark"><div class="blurred-cover" style="background-color:rgb(4,4,4);background-image:none;filter:none;-webkit-filter:none;"></div></div><main id="main"><section id="hero"><div class="hero-container"><div class="row"><div class="col-sm-6 col-xs-12 text-center"><img class="appsite-icon" src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/03244279-3b93-41c5-89d6-183f70e7be45-1.png" /></div><div class="col-sm-6 col-xs-12"><div class="app-content"><div><div class="app-name">Health Points Club</div><div class="app-tagline">Stay on top of your fitness progress!!!</div><div class="app-links"><a class="app-link" id="appleLink" href="https://itunes.apple.com/hk/app/health-points-club/id1232381881?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template4/images/badgeappstore.png" /></a></div></div></div><footer class="footer"><div class="container"><div class="row"><strong style="color:white;padding-right:22px;">Health Points Club</strong><a class="footer-link" style="color:white;" href="mailto:support@healthpoints.club">Contact Us</a></div></div></footer></div></div></div></section><section id="content"><div class="container-fluid app-container"><div class="row fill"><div class="col-sm-6 col-xs-12"><div class="phone-container"><div class="phone-wrapper"><img src="static/templates/template4/images/phoneframe.png" class="phone-frame" /><div id="carousel" class="carousel fade" data-ride="carousel"><div class="carousel-inner"><div class="item active"><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" alt="1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" alt="f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" alt="c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" alt="cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" alt="7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" /></div></div></div></div></div></div><div class="col-sm-6 col-xs-12"><div class="content-container"><div class="content-container-wrapper"><div class="app-description"><p>Health Points Club monitors your health data directly from Apple Health and converts it to Health Points.  </p><p>Use your points to compare days, share and compete with friends.</p><p>Points can be accumulated for many attributes, including Steps, Workouts, Water Consumption, Sleep, Mindful Sessions, Apple Watch Rings, and Calories with more to come in the future</p></div></div></div></div></div></div></section></main></div><div>
+<script src="static/templates/template4/js/main.min.js"></script></div>
+<script src="static/templates/analytics/analytics.js"></script>
 
 
 
