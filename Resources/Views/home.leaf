@@ -21,17 +21,81 @@ Use your points to compare days, share an" />
 <meta name="og:image:type" property="og:image:type" content="image/png" />
 <meta name="og:image:width" property="og:image:width" content="1024" />
 <meta name="og:image:height" property="og:image:height" content="1024" />
-<link rel="stylesheet" href="static/templates/template4/css/main.min.css" />xr 
+<link rel="stylesheet" href="static/templates/template4/css/main.min.css" />
 }
 
 #export("content") {
 
-<div><div class="dark"><div class="blurred-cover" style="background-color:rgb(4,4,4);background-image:none;filter:none;-webkit-filter:none;"></div></div><main id="main"><section id="hero"><div class="hero-container"><div class="row"><div class="col-sm-6 col-xs-12 text-center"><img class="appsite-icon" src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/03244279-3b93-41c5-89d6-183f70e7be45-1.png" /></div><div class="col-sm-6 col-xs-12"><div class="app-content"><div><div class="app-name">Health Points Club</div><div class="app-tagline">Stay on top of your fitness progress!!!</div><div class="app-links"><a class="app-link" id="appleLink" href="https://itunes.apple.com/hk/app/health-points-club/id1232381881?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template4/images/badgeappstore.png" /></a></div></div></div><footer class="footer"><div class="container"><div class="row"><strong style="color:white;padding-right:22px;">Health Points Club</strong><a class="footer-link" style="color:white;" href="mailto:support@healthpoints.club">Contact Us</a></div></div></footer></div></div></div></section><section id="content"><div class="container-fluid app-container"><div class="row fill"><div class="col-sm-6 col-xs-12"><div class="phone-container"><div class="phone-wrapper"><img src="static/templates/template4/images/phoneframe.png" class="phone-frame" /><div id="carousel" class="carousel fade" data-ride="carousel"><div class="carousel-inner"><div class="item active"><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" alt="1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" alt="f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" alt="c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" alt="cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" /></div><div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" alt="7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" /></div></div></div></div></div></div><div class="col-sm-6 col-xs-12"><div class="content-container"><div class="content-container-wrapper"><div class="app-description"><p>Health Points Club monitors your health data directly from Apple Health and converts it to Health Points.  </p><p>Use your points to compare days, share and compete with friends.</p><p>Points can be accumulated for many attributes, including Steps, Workouts, Water Consumption, Sleep, Mindful Sessions, Apple Watch Rings, and Calories with more to come in the future</p></div></div></div></div></div></div></section></main></div><div>
-<script src="static/templates/template4/js/main.min.js"></script></div>
+<div>
+<div class="dark">
+<div class="blurred-cover" style="background-color:rgb(4,4,4);background-image:none;filter:none;-webkit-filter:none;"></div>
+</div>
+<main id="main">
+<section id="hero">
+<div class="hero-container">
+<div class="row">
+<div class="col-sm-6 col-xs-12 text-center"><img class="appsite-icon" src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/03244279-3b93-41c5-89d6-183f70e7be45-1.png" /></div>
+<div class="col-sm-6 col-xs-12">
+<div class="app-content">
+<div>
+<div class="app-name">Health Points Club</div>
+<div class="app-tagline">Stay on top of your fitness progress!!!</div>
+<div class="app-links"><a class="app-link" id="appleLink" href="https://itunes.apple.com/hk/app/health-points-club/id1232381881?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template4/images/badgeappstore.png" /></a></div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="row">
+<a class="footer-link" style="color: white; padding-right: 22px;" href="https://www.healthpoints.club/privacy">Privacy</a>
+<a class="footer-link" style="color:white;padding-right:22px;" href="mailto:support@healthpoints.club">Contact Us</a>
+<a class="footer-link" style="color: white; padding-right: 22px;" href="https://twitter.com/Health_Points_C">Twitter</a>
+<a class="footer-link" style="color: white; padding-right: 22px;" href="https://www.facebook.com/healthpointsclub/">Facebook</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</section>
+<section id="content">
+<div class="container-fluid app-container">
+<div class="row fill">
+<div class="col-sm-6 col-xs-12">
+<div class="phone-container">
+<div class="phone-wrapper">
+<img src="static/templates/template4/images/phoneframe.png" class="phone-frame" />
+<div id="carousel" class="carousel fade" data-ride="carousel">
+<div class="carousel-inner">
+<div class="item active"><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" alt="1501d68d-ec2b-4b2f-9d64-2f683b56d271-screenshot.png" /></div>
+<div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" alt="f93dfd3a-f6e3-4197-98af-07c1fb7972a1-screenshot.png" /></div>
+<div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" alt="c1f7875a-79ab-4eb4-b46f-87a535a5045f-screenshot.png" /></div>
+<div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" alt="cbff2973-6d44-4b33-bbf8-5b50bfce0278-screenshot.png" /></div>
+<div class="item "><img src="https://s3-us-west-2.amazonaws.com/skygear-cloud-asset/appsite/7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" alt="7ebde0a7-f22c-443e-8039-4a7153c4898e-screenshot.png" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-xs-12">
+<div class="content-container">
+<div class="content-container-wrapper">
+<div class="app-description">
+<p>Health Points Club monitors your health data directly from Apple Health and converts it to Health Points.  </p>
+<p>Use your points to compare days, share and compete with friends.</p>
+<p>Points can be accumulated for many attributes, including Steps, Workouts, Water Consumption, Sleep, Mindful Sessions, Apple Watch Rings, and Calories with more to come in the future</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div>
+<script src="static/templates/template4/js/main.min.js"></script>
+</div>
 <script src="static/templates/analytics/analytics.js"></script>
-
-
-
 
 
 
