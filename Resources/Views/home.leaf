@@ -40,7 +40,7 @@ Use your points to compare days, share an" />
 <div>
 <div class="app-name">Health Points Club</div>
 <div class="app-tagline">Stay on top of your fitness progress!!!</div>
-<div class="app-links"><a class="app-link" id="appleLink" href="https://itunes.apple.com/hk/app/health-points-club/id1232381881?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template4/images/badgeappstore.png" /></a></div>
+<div class="app-links"><a class="app-link" id="appleLink" href="https://itunes.apple.com/us/app/health-points-club/id1232381881?mt=8&amp;uo=4"><img class="app-icon" src="static/templates/template4/images/badgeappstore.png" /></a></div>
 </div>
 </div>
 <footer class="footer">
